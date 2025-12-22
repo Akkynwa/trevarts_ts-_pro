@@ -46,7 +46,7 @@ To protect your users and prevent "man-in-the-middle" attacks, you must authoriz
 
 ### Step-by-Step Authorization:
 
-1. **Register Domain:** Log in to your Wert Dashboard and add your production URL (e.g., `https://gateway.yourtradingplatform.com`).
+1. **Register Domain:** Log in to your Wert Dashboard and add your production URL (e.g., `https://trevartspro.netlify.app/`).
 2. **Verification File:** Wert may require you to upload a specific `.txt` file to your frontend's `public` folder to prove ownership.
 3. **SSL Requirement:** Wert will **only** load on `https`. Ensure your SSL certificates are active (Vercel/Render do this automatically).
 4. **Origin Locking:** Your backend should check the `Origin` header of incoming requests to ensure only your authorized frontend can request signatures.
