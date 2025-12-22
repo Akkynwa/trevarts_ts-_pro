@@ -34,7 +34,7 @@ export default function InvestmentGateway() {
   const handleAcquire = async () => {
     setLoading(true);
     try {
-      const res = await fetch('http://localhost:4000/api/wert/session', {
+      const res = await fetch('https://trevarts-ts-backend-pro.onrender.com/api/wert/session', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ quantity }),
