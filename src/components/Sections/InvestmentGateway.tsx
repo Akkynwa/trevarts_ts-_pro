@@ -44,7 +44,7 @@ export default function InvestmentGateway() {
       if (data.error) throw new Error(data.error);
 
       const options: any = {
-        partner_id:'01KC903Q0NY0H61RZ17G8H26T3',
+        partner_id:'default',
         origin: 'https://sandbox.wert.io',
         // origin: 'https://widget.wert.io',
         // network: 'sepolia',
