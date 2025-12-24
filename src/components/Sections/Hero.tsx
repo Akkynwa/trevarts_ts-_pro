@@ -22,7 +22,7 @@ export default function Hero() {
           </div>
 
           {/* Main Heading */}
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl leading-[1.1] text-white tracking-tight pixel-font">
+          <h1 className="text-5xl sm:text-6xl lg:text-7xl leading-[1.1] text-[var(--foreground)] tracking-tight pixel-font">
             TrevArts <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#f53513ff] via-[#a8d904] to-[#f53513ff] bg-[length:200%_auto] animate-gradient">
               DIGITAL SOCIETY
@@ -31,7 +31,7 @@ export default function Hero() {
 
           {/* Description */}
           <p className="text-lg sm:text-xl text-[var(--muted)] leading-relaxed max-w-xl mx-auto lg:mx-0">
-            TrevArts is a digital marketplace dedicated to the creation and sale of <strong className="text-white">blockchain-based</strong> digital art and collectibles. It is building the infrastructure to power the next generation of digital ownership and creativity.
+            TrevArts is a digital marketplace dedicated to the creation and sale of <strong className="text-[var(--foreground)]">blockchain-based</strong> digital art and collectibles. It is building the infrastructure to power the next generation of digital ownership and creativity.
           </p>
 
           {/* CTA Buttons */}
@@ -52,12 +52,12 @@ export default function Hero() {
           {/* Stats */}
           <div className="pt-8 flex items-center justify-center lg:justify-start gap-8 text-zinc-500">
             <div>
-              <p className="text-2xl sm:text-3xl text-white pixel-font">5,000</p>
+              <p className="text-2xl sm:text-3xl text-[var(--foreground)] pixel-font">5,000</p>
               <p className="text-sm font-medium uppercase tracking-wide">Supply</p>
             </div>
             <div className="w-px h-10 bg-zinc-800" />
             <div>
-              <p className="text-2xl sm:text-3xl text-white pixel-font">Dec 12</p>
+              <p className="text-2xl sm:text-3xl text-[var(--foreground)] pixel-font">Dec 12</p>
               <p className="text-sm font-medium uppercase tracking-wide">Launch</p>
             </div>
             <div className="w-px h-10 bg-zinc-800" />
@@ -82,7 +82,7 @@ export default function Hero() {
             <div className="mt-5 space-y-3 px-2 pb-2">
               <div className="flex justify-between items-start">
                 <div>
-                  <h3 className="text-xl sm:text-2xl text-white pixel-font">TrevArts #1</h3>
+                  <h3 className="text-xl sm:text-2xl text-[var(--foreground)] pixel-font">TrevArts #1</h3>
                   <p className="text-base sm:text-lg text-zinc-500">OtherSide Avatar</p>
                 </div>
                 <div className="bg-zinc-800 p-2 rounded-lg border border-zinc-700">
@@ -96,7 +96,7 @@ export default function Hero() {
               <div className="h-px w-full bg-zinc-800/50" />
               <div className="flex justify-between items-center text-sm font-medium">
                 <span className="text-zinc-500">Mint Price</span>
-                <span className="text-white flex items-center gap-1">
+                <span className="text-[var(--foreground)] flex items-center gap-1">
                   <svg className="w-4 h-4 text-[#f53513ff]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
                     <circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />

@@ -15,7 +15,7 @@ export default function Lore() {
         </div>
 
         {/* Main Heading */}
-        <h2 className="text-4xl md:text-6xl text-white pixel-font tracking-tight leading-tight">
+        <h2 className="text-4xl md:text-6xl text-[var(--foreground)] pixel-font tracking-tight leading-tight">
           THE YEAR IS <span className="text-[#f53513ff]">2069</span>
         </h2>
 
@@ -31,7 +31,7 @@ The platform enables artists and creators to mint, showcase, and sell unique dig
 
         {/* Call to Action */}
         <div className="pt-8 space-y-4">
-          <p className="text-3xl text-white pixel-font">Gather your TrevArts...</p>
+          <p className="text-3xl text-[var(--foreground)] pixel-font">Gather your TrevArts...</p>
           <div className="flex justify-center">
             <div className="h-px w-24 bg-gradient-to-r from-transparent via-[#f53513ff] to-transparent" />
           </div>

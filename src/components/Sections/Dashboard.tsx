@@ -48,7 +48,7 @@ export default function Dashboard() {
           </div>
 
           {/* Main Title */}
-          <h1 className="pixel-font text-5xl sm:text-7xl text-white mb-4">
+          <h1 className="pixel-font text-5xl sm:text-7xl text-[var(--foreground)] mb-4">
             <span className="text-cyan-400">COVERT</span> TrevArts Missions (Soft
             Staking)
           </h1>
@@ -104,7 +104,7 @@ export default function Dashboard() {
               <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
               <circle cx="9" cy="7" r="4" />
             </svg>
-            <p className="text-2xl font-bold text-white">
+            <p className="text-2xl font-bold text-[var(--foreground)]">
               {activeMissions}
             </p>
             <p className="text-sm opacity-70">Active Missions</p>
@@ -128,7 +128,7 @@ export default function Dashboard() {
               <path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12" />
               <path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17" />
             </svg>
-            <p className="text-2xl font-bold text-white">
+            <p className="text-2xl font-bold text-[var(--foreground)]">
               {nftsDeployed}
             </p>
             <p className="text-sm opacity-70">NFTs Deployed</p>
@@ -153,7 +153,7 @@ export default function Dashboard() {
               <path d="M7 6h1v4" />
               <path d="m16.71 13.88.7.71-2.82 2.82" />
             </svg>
-            <p className="text-2xl font-bold text-white">
+            <p className="text-2xl font-bold text-[var(--foreground)]">
               {rewardsDistributed}{" "}
               <span className="text-sm ml-1 opacity-70">$TREVART</span>
             </p>
@@ -177,7 +177,7 @@ export default function Dashboard() {
               <path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1" />
               <path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4" />
             </svg>
-            <p className="text-2xl font-bold text-white">
+            <p className="text-2xl font-bold text-[var(--foreground)]">
               {contractBalance}{" "}
               <span className="text-sm ml-1 opacity-70">$TREVART</span>
             </p>
@@ -205,7 +205,7 @@ export default function Dashboard() {
             </svg>
           </div>
 
-          <h2 className="pixel-font text-3xl text-white mb-4">
+          <h2 className="pixel-font text-3xl text-[var(--foreground)] mb-4">
             Connect Wallet
           </h2>
           <p className="text-[var(--muted)] mb-6">

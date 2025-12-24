@@ -46,7 +46,7 @@ function StakingPage() {
   return (
     <div className="pt-20">
       <div className="container-custom py-12">
-        <h1 className="text-4xl font-bold text-white">Staking Dashboard</h1>
+        <h1 className="text-4xl font-bold text-[var(--foreground)]">Staking Dashboard</h1>
         <p className="text-[var(--muted)] mt-2">Coming Soon</p>
       </div>
     </div>
@@ -57,7 +57,7 @@ function ProfilePage() {
   return (
     <div className="pt-20">
       <div className="container-custom py-12">
-        <h1 className="text-4xl font-bold text-white">Profile</h1>
+        <h1 className="text-4xl font-bold text-[var(--foreground)]">Profile</h1>
         <p className="text-[var(--muted)] mt-2">Connect your wallet to view your profile</p>
       </div>
     </div>
@@ -68,7 +68,7 @@ function CommunityPage() {
   return (
     <div className="pt-20">
       <div className="container-custom py-12">
-        <h1 className="text-4xl font-bold text-white">Community</h1>
+        <h1 className="text-4xl font-bold text-[var(--foreground)]">Community</h1>
         <p className="text-[var(--muted)] mt-2">Community features coming soon</p>
       </div>
     </div>

@@ -14,9 +14,9 @@ export default function CrossChain() {
             <Zap className="w-4 h-4" />
             ERC721-SHADOW PROTOCOL
           </div>
-          <h2 className="text-4xl md:text-5xl text-white pixel-font mb-6 tracking-tight">ONE NFT, TWO CHAINS</h2>
+          <h2 className="text-4xl md:text-5xl text-[var(--foreground)] pixel-font mb-6 tracking-tight">ONE NFT, TWO CHAINS</h2>
           <p className="text-xl text-[var(--muted)] max-w-3xl mx-auto font-light leading-relaxed">
-By purchasing the NFT, you unlock a smart, on-chain gateway to your investment account.<strong className="text-white">The exact value of the NFT you acquire is automatically mapped to your balance on the trading platform</strong>, creating a direct, verifiable link between ownership and capital. More than a digital collectible, <strong className="text-white">the NFT acts as a futuristic access layer</strong>—where blockchain identity, value, and trading infrastructure converge into a seamless, next-generation investment experience.          </p>
+By purchasing the NFT, you unlock a smart, on-chain gateway to your investment account.<strong className="text-[var(--foreground)]">The exact value of the NFT you acquire is automatically mapped to your balance on the trading platform</strong>, creating a direct, verifiable link between ownership and capital. More than a digital collectible, <strong className="text-[var(--foreground)]">the NFT acts as a futuristic access layer</strong>—where blockchain identity, value, and trading infrastructure converge into a seamless, next-generation investment experience.          </p>
         </div>
 
         {/* Chain Visualization */}
@@ -29,7 +29,7 @@ By purchasing the NFT, you unlock a smart, on-chain gateway to your investment a
                 <div className="w-20 h-20 mx-auto bg-zinc-900 rounded-full flex items-center justify-center border-2 border-zinc-700">
                   <img src="https://app.monad.xyz/favicon.ico" alt="Monad Logo" className="w-10 h-10" />
                 </div>
-                <h3 className="text-2xl text-white font-bold"></h3>
+                <h3 className="text-2xl text-[var(--foreground)] font-bold"></h3>
                 <p className="text-sm text-zinc-500 uppercase tracking-wider font-semibold">Primary Chain</p>
                 <div className="pt-4">
                   <div className="text-xs text-zinc-600 mb-2">NFT Owner</div>
@@ -56,7 +56,7 @@ By purchasing the NFT, you unlock a smart, on-chain gateway to your investment a
                 <div className="w-20 h-20 mx-auto bg-zinc-900 rounded-full flex items-center justify-center border-2 border-zinc-700 p-3">
                   <img src="/assets/apechainlogo.svg" alt="ApeChain Logo" className="w-full h-full" />
                 </div>
-                <h3 className="text-2xl text-white font-bold"></h3>
+                <h3 className="text-2xl text-[var(--foreground)] font-bold"></h3>
                 <p className="text-sm text-zinc-500 uppercase tracking-wider font-semibold">Shadow Chain</p>
                 <div className="pt-4">
                   <div className="text-xs text-zinc-600 mb-2">Mirrored Owner</div>
@@ -64,7 +64,7 @@ By purchasing the NFT, you unlock a smart, on-chain gateway to your investment a
                 </div>
               </div>
               <div className="absolute -top-2 -right-2 w-6 h-6 bg-[#0054FA] rounded-full flex items-center justify-center animate-pulse">
-                <Check className="w-4 h-4 text-white" />
+                <Check className="w-4 h-4 text-[var(--foreground)]" />
               </div>
             </div>
           </div>
@@ -77,7 +77,7 @@ By purchasing the NFT, you unlock a smart, on-chain gateway to your investment a
               <div className="w-12 h-12 bg-[#f53513ff]/10 rounded-lg flex items-center justify-center mb-4">
                 <Shield className="w-6 h-6 text-[#f53513ff]" />
               </div>
-              <h4 className="text-lg text-white font-semibold mb-2">No Bridging Risk</h4>
+              <h4 className="text-lg text-[var(--foreground)] font-semibold mb-2">No Bridging Risk</h4>
               <p className="text-sm text-zinc-500 leading-relaxed">Your NFT never leaves Monad. The shadow copy updates automatically—no bridges, no risk.</p>
             </div>
 
@@ -86,7 +86,7 @@ By purchasing the NFT, you unlock a smart, on-chain gateway to your investment a
               <div className="w-12 h-12 bg-[#f53513ff]/10 rounded-lg flex items-center justify-center mb-4">
                 <Zap className="w-6 h-6 text-[#f53513ff]" />
               </div>
-              <h4 className="text-lg text-white font-semibold mb-2">Instant Sync</h4>
+              <h4 className="text-lg text-[var(--foreground)] font-semibold mb-2">Instant Sync</h4>
               <p className="text-sm text-zinc-500 leading-relaxed">Oracle-powered updates ensure your ownership is reflected across chains in real-time.</p>
             </div>
 
@@ -95,7 +95,7 @@ By purchasing the NFT, you unlock a smart, on-chain gateway to your investment a
               <div className="w-12 h-12 bg-[#f53513ff]/10 rounded-lg flex items-center justify-center mb-4">
                 <Globe className="w-6 h-6 text-[#f53513ff]" />
               </div>
-              <h4 className="text-lg text-white font-semibold mb-2">Multi-Chain Utility</h4>
+              <h4 className="text-lg text-[var(--foreground)] font-semibold mb-2">Multi-Chain Utility</h4>
               <p className="text-sm text-zinc-500 leading-relaxed">Access exclusive features and communities on both Monad and ApeChain ecosystems.</p>
             </div>
           </div>

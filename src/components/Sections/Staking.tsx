@@ -19,7 +19,7 @@ export default function Staking() {
             <TrendingUp className="w-4 h-4" />
             SOFT STAKING
           </div>
-          <h2 className="text-4xl md:text-5xl text-white pixel-font mb-6 tracking-tight">EARN $TREVART DAILY</h2>
+          <h2 className="text-4xl md:text-5xl text-[var(--foreground)] pixel-font mb-6 tracking-tight">EARN $TREVART DAILY</h2>
           <p className="text-xl text-[var(--muted)] max-w-3xl mx-auto font-light leading-relaxed">
             Stake your TrevArts and earn $TREVART tokens every day. No lock-ups, no penalties—just passive rewards for being part of the community.
           </p>
@@ -30,7 +30,7 @@ export default function Staking() {
           {stats.map((stat) => (
             <div key={stat.label} className={`p-4 rounded-xl border border-${stat.color}-500/30 bg-${stat.color}-500/10 text-${stat.color}-400`}>
               <stat.icon className="w-6 h-6 mb-2" />
-              <p className="text-2xl font-bold text-white">
+              <p className="text-2xl font-bold text-[var(--foreground)]">
                 {stat.value}
                 {stat.currency && <span className="text-sm ml-1 opacity-70">$TREVART</span>}
               </p>
@@ -47,7 +47,7 @@ export default function Staking() {
             <div className="absolute top-0 right-0 w-64 h-64 bg-[#f53513ff]/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
             <div className="relative z-10">
               <div className="flex items-center justify-between mb-6">
-                <h3 className="text-2xl text-white font-bold">Staking Rewards</h3>
+                <h3 className="text-2xl text-[var(--foreground)] font-bold">Staking Rewards</h3>
                 <div className="px-3 py-1 bg-[#f53513ff]/20 rounded-full text-xs font-bold text-[#f53513ff] uppercase">Coming Soon</div>
               </div>
               
@@ -66,11 +66,11 @@ export default function Staking() {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="p-4 bg-[var(--background)]/50 rounded-xl border border-zinc-800">
                     <div className="text-xs text-zinc-500 uppercase tracking-wide mb-2">Rarity Boost</div>
-                    <div className="text-xl text-white font-bold">Up to 5x</div>
+                    <div className="text-xl text-[var(--foreground)] font-bold">Up to 5x</div>
                   </div>
                   <div className="p-4 bg-[var(--background)]/50 rounded-xl border border-zinc-800">
                     <div className="text-xs text-zinc-500 uppercase tracking-wide mb-2">Holder Multiplier</div>
-                    <div className="text-xl text-white font-bold">Quantity Based</div>
+                    <div className="text-xl text-[var(--foreground)] font-bold">Quantity Based</div>
                   </div>
                 </div>
 
@@ -93,7 +93,7 @@ export default function Staking() {
                   <Star className="w-6 h-6 text-[#f53513ff]" />
                 </div>
                 <div>
-                  <h4 className="text-lg text-white font-semibold mb-2">Rarity Multipliers</h4>
+                  <h4 className="text-lg text-[var(--foreground)] font-semibold mb-2">Rarity Multipliers</h4>
                   <p className="text-sm text-zinc-500 leading-relaxed mb-4">
                     Rare traits earn more. Higher rarity TrevArts earn significantly higher rewards.
                   </p>
@@ -120,7 +120,7 @@ export default function Staking() {
                   <Users className="w-6 h-6 text-[#f53513ff]" />
                 </div>
                 <div>
-                  <h4 className="text-lg text-white font-semibold mb-2">Holder Bonuses</h4>
+                  <h4 className="text-lg text-[var(--foreground)] font-semibold mb-2">Holder Bonuses</h4>
                   <p className="text-sm text-zinc-500 leading-relaxed mb-4">
                     The more TrevArts you hold, the higher your rewards multiplier.
                   </p>
@@ -152,7 +152,7 @@ export default function Staking() {
                   <Lock className="w-6 h-6 text-[#f53513ff]" />
                 </div>
                 <div>
-                  <h4 className="text-lg text-white font-semibold mb-2">Soft Staking</h4>
+                  <h4 className="text-lg text-[var(--foreground)] font-semibold mb-2">Soft Staking</h4>
                   <p className="text-sm text-zinc-500 leading-relaxed">
                     No lock-ups required. Unstake anytime, trade freely, and keep earning rewards.
                   </p>

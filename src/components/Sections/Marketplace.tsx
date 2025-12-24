@@ -95,7 +95,7 @@ const Marketplace: React.FC = () => {
                     <div className="text-sm text-zinc-500 mt-2">Grand Prize Draw</div>
                   </div>
                 </div>
-                <div className="absolute top-3 right-3 px-3 py-1 bg-purple-500 rounded-full text-xs font-bold text-white">TICKET</div>
+                <div className="absolute top-3 right-3 px-3 py-1 bg-purple-500 rounded-full text-xs font-bold text-[var(--foreground)]">TICKET</div>
               </div>
               <div className="p-5 space-y-3">
                 <div>
@@ -129,7 +129,7 @@ const Marketplace: React.FC = () => {
                     <div className="text-sm text-zinc-500 mt-2">Cross-Chain NFT</div>
                   </div>
                 </div>
-                <div className="absolute top-3 right-3 px-3 py-1 bg-[#0054FA] rounded-full text-xs font-bold text-white flex items-center gap-1">
+                <div className="absolute top-3 right-3 px-3 py-1 bg-[#0054FA] rounded-full text-xs font-bold text-[var(--foreground)] flex items-center gap-1">
                   <svg 
                     xmlns="http://www.w3.org/2000/svg" 
                     width="24" 
