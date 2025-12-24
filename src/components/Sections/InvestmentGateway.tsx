@@ -44,10 +44,11 @@ export default function InvestmentGateway() {
       if (data.error) throw new Error(data.error);
 
       const options: any = {
-        partner_id: '01KC903Q0NY0H61RZ17G8H26T3',
-        // origin: 'https://sandbox.wert.io',
-        origin: 'https://widget.wert.io',
-        network: 'ethereum',
+        partner_id:'01KC903Q0NY0H61RZ17G8H26T3',
+        origin: 'https://sandbox.wert.io',
+        // origin: 'https://widget.wert.io',
+        network: 'sepolia',
+        // network: 'ethereum',
         commodity: 'ETH',
         click_id: data.session_id,
         currency: 'USD', 
@@ -130,6 +131,7 @@ const styles: { [key: string]: React.CSSProperties } = {
     backgroundColor: '#0a0a0a',
     backgroundImage: 'radial-gradient(circle at top right, #1a1a1a, #0a0a0a)',
     color: '#fff',
+    borderRadius: '16px',
     boxShadow: '0 20px 50px rgba(0,0,0,0.5)',
     fontFamily: '"Inter", sans-serif',
   },
