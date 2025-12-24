@@ -3,7 +3,7 @@ import { BookOpen } from 'lucide-react'
 
 export default function Lore() {
   return (
-    <section className="py-24 bg-zinc-950 relative overflow-hidden" id="lore">
+    <section className="py-24 bg-[var(--background)] relative overflow-hidden" id="lore">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#f53513ff]/5 blur-[120px] rounded-full" />
       
       <div className="max-w-4xl mx-auto px-6 relative z-10 text-center space-y-10">
@@ -20,7 +20,7 @@ export default function Lore() {
         </h2>
 
         {/* Lore Content */}
-        <div className="space-y-8 text-lg md:text-xl text-zinc-400 font-light leading-relaxed max-w-3xl mx-auto">
+        <div className="space-y-8 text-lg md:text-xl text-[var(--muted)] font-light leading-relaxed max-w-3xl mx-auto">
           <p>
 TrevArts focuses on simplicity, accessibility, and straightforward user experience, allowing creators and buyers to interact directly without unnecessary complexity. The platform supports standard blockchain wallets and payment solutions to facilitate smooth transactions.          </p>
           <p>

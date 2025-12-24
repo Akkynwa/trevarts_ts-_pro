@@ -30,7 +30,7 @@ export default function Hero() {
           </h1>
 
           {/* Description */}
-          <p className="text-lg sm:text-xl text-zinc-400 leading-relaxed max-w-xl mx-auto lg:mx-0">
+          <p className="text-lg sm:text-xl text-[var(--muted)] leading-relaxed max-w-xl mx-auto lg:mx-0">
             TrevArts is a digital marketplace dedicated to the creation and sale of <strong className="text-white">blockchain-based</strong> digital art and collectibles. It is building the infrastructure to power the next generation of digital ownership and creativity.
           </p>
 
@@ -72,7 +72,7 @@ export default function Hero() {
         <div className="relative lg:h-[600px] flex items-center justify-center">
           <div className="absolute inset-0 bg-gradient-to-tr from-[#f53513ff]/10 to-[#a8d904]/10 rounded-3xl blur-2xl" />
           <div className="relative w-full max-w-md bg-zinc-900 border border-zinc-800 rounded-2xl p-4 shadow-2xl shadow-black/50 hover:border-[#f53513ff]/50 transition-all duration-500">
-            <div className="aspect-square w-full bg-zinc-950 rounded-xl overflow-hidden relative flex items-center justify-center">
+            <div className="aspect-square w-full bg-[var(--background)] rounded-xl overflow-hidden relative flex items-center justify-center">
               <img
                 src="/assets/nfts/home.png"
                 alt="TrevArts NFT"

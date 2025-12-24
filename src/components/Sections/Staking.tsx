@@ -20,7 +20,7 @@ export default function Staking() {
             SOFT STAKING
           </div>
           <h2 className="text-4xl md:text-5xl text-white pixel-font mb-6 tracking-tight">EARN $TREVART DAILY</h2>
-          <p className="text-xl text-zinc-400 max-w-3xl mx-auto font-light leading-relaxed">
+          <p className="text-xl text-[var(--muted)] max-w-3xl mx-auto font-light leading-relaxed">
             Stake your TrevArts and earn $TREVART tokens every day. No lock-ups, no penalties—just passive rewards for being part of the community.
           </p>
         </div>
@@ -53,7 +53,7 @@ export default function Staking() {
               
               <div className="space-y-6">
                 {/* Base Reward Card */}
-                <div className="p-6 bg-zinc-950/50 rounded-xl border border-zinc-800">
+                <div className="p-6 bg-[var(--background)]/50 rounded-xl border border-zinc-800">
                   <div className="flex items-center justify-between mb-2">
                     <span className="text-sm text-zinc-500 uppercase tracking-wide">Base Reward</span>
                     <Info className="w-4 h-4 text-zinc-600" />
@@ -64,18 +64,18 @@ export default function Staking() {
 
                 {/* Rarity & Multiplier Grid */}
                 <div className="grid grid-cols-2 gap-4">
-                  <div className="p-4 bg-zinc-950/50 rounded-xl border border-zinc-800">
+                  <div className="p-4 bg-[var(--background)]/50 rounded-xl border border-zinc-800">
                     <div className="text-xs text-zinc-500 uppercase tracking-wide mb-2">Rarity Boost</div>
                     <div className="text-xl text-white font-bold">Up to 5x</div>
                   </div>
-                  <div className="p-4 bg-zinc-950/50 rounded-xl border border-zinc-800">
+                  <div className="p-4 bg-[var(--background)]/50 rounded-xl border border-zinc-800">
                     <div className="text-xs text-zinc-500 uppercase tracking-wide mb-2">Holder Multiplier</div>
                     <div className="text-xl text-white font-bold">Quantity Based</div>
                   </div>
                 </div>
 
                 {/* Staking Button */}
-                <button className="w-full px-6 py-4 bg-zinc-800 text-zinc-400 text-lg font-bold rounded-lg cursor-not-allowed flex items-center justify-center gap-2">
+                <button className="w-full px-6 py-4 bg-zinc-800 text-[var(--muted)] text-lg font-bold rounded-lg cursor-not-allowed flex items-center justify-center gap-2">
                   <Lock className="w-5 h-5" />
                   Staking Opens Dec 12
                 </button>
@@ -100,7 +100,7 @@ export default function Staking() {
                   <div className="space-y-2">
                     {['Common', 'Uncommon', 'Rare', 'Epic', 'Legendary', 'Mythics 1 of 1'].map((rarity, index) => (
                       <div key={rarity} className="flex items-center justify-between text-sm">
-                        <span className={index >= 4 ? 'text-[#f53513ff]' : 'text-zinc-400'}>
+                        <span className={index >= 4 ? 'text-[#f53513ff]' : 'text-[var(--muted)]'}>
                           {rarity}
                         </span>
                         <span className={index >= 4 ? 'text-[#f53513ff] font-bold' : 'text-zinc-300 font-semibold'}>
@@ -132,7 +132,7 @@ export default function Staking() {
                       { range: '10+ NFTs', bonus: '+50%' },
                     ].map((item, index) => (
                       <div key={item.range} className="flex items-center justify-between text-sm">
-                        <span className={index >= 3 ? 'text-[#f53513ff]' : 'text-zinc-400'}>
+                        <span className={index >= 3 ? 'text-[#f53513ff]' : 'text-[var(--muted)]'}>
                           {item.range}
                         </span>
                         <span className={index >= 3 ? 'text-[#f53513ff] font-bold' : 'text-zinc-300 font-semibold'}>

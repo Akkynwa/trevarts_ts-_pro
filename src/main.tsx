@@ -4,7 +4,7 @@ import App from './App.tsx'
 import './index.css'
 import { BrowserRouter } from 'react-router-dom'
 import { Buffer } from "buffer";
-
+import { ThemeProvider } from './components/Layout/ThemeContext.tsx';
 // 1. Import the necessary Providers and your new config
 import { WagmiProvider } from 'wagmi'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
@@ -29,7 +29,9 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <WagmiProvider config={config}>
       <QueryClientProvider client={queryClient}>
         <BrowserRouter>
+        <ThemeProvider>
           <App />
+        </ThemeProvider>
         </BrowserRouter>
       </QueryClientProvider>
     </WagmiProvider>

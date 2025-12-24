@@ -13,10 +13,10 @@ export default function SneakPeek() {
             <p className="text-lg text-zinc-500">Preview of the collection</p>
           </div>
           <div className="flex gap-2">
-            <button className="w-10 h-10 rounded-full border border-zinc-800 flex items-center justify-center text-zinc-400 hover:text-zinc-100 hover:bg-zinc-800 transition-colors">
+            <button className="w-10 h-10 rounded-full border border-zinc-800 flex items-center justify-center text-[var(--muted)] hover:text-zinc-100 hover:bg-zinc-800 transition-colors">
               <ArrowLeft className="w-5 h-5" />
             </button>
-            <button className="w-10 h-10 rounded-full border border-zinc-800 flex items-center justify-center text-zinc-400 hover:text-zinc-100 hover:bg-zinc-800 transition-colors">
+            <button className="w-10 h-10 rounded-full border border-zinc-800 flex items-center justify-center text-[var(--muted)] hover:text-zinc-100 hover:bg-zinc-800 transition-colors">
               <ArrowRight className="w-5 h-5" />
             </button>
           </div>
@@ -27,7 +27,7 @@ export default function SneakPeek() {
           {sneakPeekNFTs.map((num) => (
             <div 
               key={num} 
-              className="group relative aspect-square bg-zinc-950 rounded-xl overflow-hidden cursor-pointer flex items-center justify-center border border-zinc-800 hover:border-[#f53513ff]/50 transition-all"
+              className="group relative aspect-square bg-[var(--background)] rounded-xl overflow-hidden cursor-pointer flex items-center justify-center border border-zinc-800 hover:border-[#f53513ff]/50 transition-all"
             >
               <img 
                 src={`/assets/nfts/${num}.png`} 

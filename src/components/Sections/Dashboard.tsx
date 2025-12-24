@@ -54,7 +54,7 @@ export default function Dashboard() {
           </h1>
 
           {/* Description */}
-          <p className="text-zinc-400 text-lg max-w-2xl mx-auto mb-8">
+          <p className="text-[var(--muted)] text-lg max-w-2xl mx-auto mb-8">
             In the neon-lit streets of the New New York underground, your
             TrevArts can be deployed on covert operations. The longer the
             mission, the greater the{" "}
@@ -208,7 +208,7 @@ export default function Dashboard() {
           <h2 className="pixel-font text-3xl text-white mb-4">
             Connect Wallet
           </h2>
-          <p className="text-zinc-400 mb-6">
+          <p className="text-[var(--muted)] mb-6">
             Connect your wallet to deploy your TrevArts on missions
           </p>
         </div>

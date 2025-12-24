@@ -3,7 +3,7 @@ import React from 'react';
 
 const Marketplace: React.FC = () => {
   return (
-    <section className="py-24 bg-zinc-950 relative overflow-hidden" id="marketplace">
+    <section className="py-24 bg-[var(--background)] relative overflow-hidden" id="marketplace">
       <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-[#f53513ff]/5 via-transparent to-transparent pointer-events-none"></div>
       
       <div className="max-w-7xl mx-auto px-6 relative z-10">
@@ -30,7 +30,7 @@ const Marketplace: React.FC = () => {
             $TREVARTS MARKETPLACE
           </div>
           <h2 className="text-5xl text-zinc-100 pixel-font mb-6 tracking-tight">SHOP WITH $TREVART</h2>
-          <p className="text-xl text-zinc-400 max-w-3xl mx-auto font-light leading-relaxed">
+          <p className="text-xl text-[var(--muted)] max-w-3xl mx-auto font-light leading-relaxed">
             Use your $TREVART tokens to purchase exclusive NFTs, raffle tickets, and even cross-chain assets from ApeChain—all on Monad.
           </p>
         </div>
@@ -41,7 +41,7 @@ const Marketplace: React.FC = () => {
           <div className="grid md:grid-cols-3 gap-6">
             {/* NFT Product */}
             <div className="group relative bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden hover:border-[#f53513ff]/50 transition-all duration-300">
-              <div className="aspect-square bg-zinc-950 flex items-center justify-center p-8 relative overflow-hidden">
+              <div className="aspect-square bg-[var(--background)] flex items-center justify-center p-8 relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-[#f53513ff]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 <img 
                   src="/assets/nfts/2.png" 

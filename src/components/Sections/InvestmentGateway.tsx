@@ -45,7 +45,8 @@ export default function InvestmentGateway() {
 
       const options: any = {
         partner_id: '01KC903Q0NY0H61RZ17G8H26T3',
-        origin: 'https://widget.wert.io',
+        origin: 'https://sanbox.wert.io',
+        // origin: 'https://widget.wert.io',
         network: 'ethereum',
         commodity: 'ETH',
         click_id: data.session_id,

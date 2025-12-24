@@ -8,14 +8,13 @@ import CrossChain from './components/Sections/CrossChain'
 import Staking from './components/Sections/Staking'
 import Marketplace from './components/Sections/Marketplace'
 import SneakPeek from './components/Sections/SneakPeek'
-import Community from './components/Sections/Community'
 import MusicPlayer from './components/UI/MusicPlayer'
 import Dashboard from './components/Sections/Dashboard'
 import InvestmentGateway from './components/Sections/InvestmentGateway'
 
 function App() {
   return (
-    <div className="min-h-screen bg-zinc-950">
+    <div className="min-h-screen bg-[var(--background)]">
       <Navbar />
       <main>
         <Routes>
@@ -28,7 +27,6 @@ function App() {
               <Staking />
               <Marketplace />
               <SneakPeek />
-              <Community />
             </>
           } />
           <Route path="/staking" element={<StakingPage />} />
@@ -49,7 +47,7 @@ function StakingPage() {
     <div className="pt-20">
       <div className="container-custom py-12">
         <h1 className="text-4xl font-bold text-white">Staking Dashboard</h1>
-        <p className="text-zinc-400 mt-2">Coming Soon</p>
+        <p className="text-[var(--muted)] mt-2">Coming Soon</p>
       </div>
     </div>
   )
@@ -60,7 +58,7 @@ function ProfilePage() {
     <div className="pt-20">
       <div className="container-custom py-12">
         <h1 className="text-4xl font-bold text-white">Profile</h1>
-        <p className="text-zinc-400 mt-2">Connect your wallet to view your profile</p>
+        <p className="text-[var(--muted)] mt-2">Connect your wallet to view your profile</p>
       </div>
     </div>
   )
@@ -71,7 +69,7 @@ function CommunityPage() {
     <div className="pt-20">
       <div className="container-custom py-12">
         <h1 className="text-4xl font-bold text-white">Community</h1>
-        <p className="text-zinc-400 mt-2">Community features coming soon</p>
+        <p className="text-[var(--muted)] mt-2">Community features coming soon</p>
       </div>
     </div>
   )

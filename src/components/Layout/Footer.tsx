@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
-    <footer className="border-t border-zinc-800 bg-zinc-950 pt-20 pb-10">
+    <footer className="border-t border-zinc-800 bg-[var(--background)] pt-20 pb-10">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Top Section */}
@@ -36,13 +36,13 @@ export default function Footer() {
           <div className="flex gap-6">
             <a
               href="#"
-              className="hover:text-zinc-400 transition-colors"
+              className="hover:text-[var(--muted)] transition-colors"
             >
               Privacy Policy
             </a>
             <a
               href="#"
-              className="hover:text-zinc-400 transition-colors"
+              className="hover:text-[var(--muted)] transition-colors"
             >
               Terms of Service
             </a>

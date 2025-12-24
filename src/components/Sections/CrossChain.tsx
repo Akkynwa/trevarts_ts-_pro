@@ -3,7 +3,7 @@ import { Zap, Shield, Globe, ArrowLeftRight, Check } from 'lucide-react'
 
 export default function CrossChain() {
   return (
-    <section className="py-24 bg-zinc-950 relative overflow-hidden" id="crosschain">
+    <section className="py-24 bg-[var(--background)] relative overflow-hidden" id="crosschain">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-[#f53513ff]/5 blur-[150px] rounded-full" />
       
       <div className="max-w-7xl mx-auto px-6 relative z-10">
@@ -15,7 +15,7 @@ export default function CrossChain() {
             ERC721-SHADOW PROTOCOL
           </div>
           <h2 className="text-4xl md:text-5xl text-white pixel-font mb-6 tracking-tight">ONE NFT, TWO CHAINS</h2>
-          <p className="text-xl text-zinc-400 max-w-3xl mx-auto font-light leading-relaxed">
+          <p className="text-xl text-[var(--muted)] max-w-3xl mx-auto font-light leading-relaxed">
 By purchasing the NFT, you unlock a smart, on-chain gateway to your investment account.<strong className="text-white">The exact value of the NFT you acquire is automatically mapped to your balance on the trading platform</strong>, creating a direct, verifiable link between ownership and capital. More than a digital collectible, <strong className="text-white">the NFT acts as a futuristic access layer</strong>—where blockchain identity, value, and trading infrastructure converge into a seamless, next-generation investment experience.          </p>
         </div>
 
