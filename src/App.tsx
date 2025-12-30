@@ -11,6 +11,7 @@ import SneakPeek from './components/Sections/SneakPeek'
 import MusicPlayer from './components/UI/MusicPlayer'
 import Dashboard from './components/Sections/Dashboard'
 import InvestmentGateway from './components/Sections/InvestmentGateway'
+// import { KeyGenerator } from './components/KeyGenerator'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Routes>
           <Route path="/" element={
             <>
+            {/* <KeyGenerator /> */}
               <Hero />
               <NFTMarquee />
               <Lore />
@@ -34,6 +36,7 @@ function App() {
           <Route path="/community" element={<CommunityPage />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/nftcheckout" element={<InvestmentGateway />} />
+
         </Routes>
       </main>
       <Footer />
