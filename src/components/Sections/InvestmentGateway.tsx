@@ -30,7 +30,7 @@ export default function InvestmentGateway() {
     setLoading(true);
     try {
       // 1. Fetch Session from your updated Backend
-      const res = await fetch('https://trevarts-ts-backend-pro.onrender.com/api/wert/session', {
+      const res = await fetch('http://localhost:4000/api/wert/session', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ quantity }),
